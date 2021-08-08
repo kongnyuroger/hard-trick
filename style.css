@@ -1,0 +1,279 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 30px 15px;
+    color: white;
+    position: inherit;
+}
+header h2
+{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 17;
+}
+header h2 i
+{
+    margin-right: 4px;
+    font-size: 70px;
+}
+header ul
+{
+    display: flex;
+
+}
+header ul li
+{
+    margin-left: 40px;
+    list-style: none;
+    padding-top: 25px;
+}
+header ul .button
+{
+    margin-left: 30px;
+    padding-top: 25px;
+    font-size: 30px;
+    position: fixed;
+    right: 50px;
+    display: none;
+}
+header ul li a
+{
+    text-decoration: none;
+    font-size: 20px ;
+    color: white;
+}
+section
+{
+    padding: 0 139px;
+}
+.sec1
+{
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(247, 70, 70, 0.801), rgba(101, 101, 245, 0.801)), url('images/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0  20px;
+    position: relative;
+
+}
+.sec1 .content-bx
+{
+    width: 100%;
+    position: relative;
+    top: 10%;
+    padding: 0 139px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.general-text
+{
+    color: white;
+}
+.general-text .c
+{
+    font-size: 25px;
+    margin-bottom: 3px;
+    font-weight: lighter;
+}
+.general-text h1
+{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+    margin-top: 0;
+}
+.sec1 .content-bx .content-text .d
+{
+    width: 460px;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+.btns
+{
+    position: relative;
+    left: 50px;
+}
+button
+{
+    padding: 10px 20px;
+    background: rgb(231, 37, 69);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.df
+{
+    border-radius: 4px;
+}
+.ndBtn
+{
+    background: rgb(60, 60, 224);
+}
+
+.sec1 .content-bx img
+{
+     width: 370px;
+     object-fit: cover;
+
+    
+}
+.sec2
+{
+    background: url(images/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0 0 40px 139px;
+
+}
+.sec2 .content-text
+{
+    width: 55%;
+    position: relative;
+    
+}
+.sec2 .content-bx
+{
+    display: flex;
+    padding-top: 60px;
+    position: relative;
+    top: 12%;
+}
+.sec2 .general-text
+{
+    color: black;
+
+}
+.sec2 ul
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sec2 ul a
+{
+    margin-right: 30px;
+}
+.e
+{
+    background: linear-gradient(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+.sec2 img
+{
+    width: 400;
+}
+
+.sec3
+{
+    
+    padding: 0 0 0 0;
+}
+.prize-bx
+{
+    color: white;
+    width: 33.3%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 137;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    background: rgb(24 24 107 / 80%);
+}
+.prize-bx h1 span
+{
+    line-height: 60px;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.prize-bx h1
+{
+    line-height: 30px;
+    
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 17px;
+}
+.prize-bx p
+{
+    margin-top: 10px;
+    
+}
+.boxes
+{
+    display: flex;
+}
+.sec3 .boxes .bx2
+{
+    background: rgb(3 3 49 / 80%);
+    padding-top: 50px;
+    padding-left: 70;
+    padding-right: 70px;
+    padding-bottom: 60px;
+}
+.sec3 .boxes .bx3
+{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 137px;
+    padding-bottom: 60px;
+}
+.sec3 .background
+{
+    background: url(images/bg2.jpg);
+    object-fit: cover;
+    position: relative;
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.sec3 .text-bx
+{
+    background-color: rgba(40, 40, 250, 0.342);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.sec3 .general-text
+{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    margin-bottom: 100px;
+}
+.sec3 .general-text h1
+{
+    font-size: 2.5rem;
+}
+.sec3 .text-bx .d
+{
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sec3 .er
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
