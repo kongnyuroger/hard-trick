@@ -1,3 +1,3 @@
-# hard-trick
+#css beginning
 
-An html css project for beginners
+my html css project for beginners
